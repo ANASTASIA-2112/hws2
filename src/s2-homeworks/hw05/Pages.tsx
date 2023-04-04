@@ -14,7 +14,7 @@ export const PATH = {
 function Pages() {
     return (
          <div>
-    {/*Routes выбирает первый подходящий роут*/}
+<!--     {/*Routes выбирает первый подходящий роут*/}
     <Routes>
         <Route path={'/'} element={<Pages/>}/>
         <Route path={'/pre-junior'} element={<PreJunior/>}/>
@@ -22,7 +22,7 @@ function Pages() {
         <Route path={'/junior-plus'} element={<JuniorPlus/>}/>
 
         <Route path={'/*'} element={<Error404/>}/>
-    </Routes>
+    </Routes> -->
 </div>
     )
 }
