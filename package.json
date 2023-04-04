@@ -1,6 +1,6 @@
 {
-  "name": "hws2",
-  "homepage": "https://anastasia-2112.github.io/hws2",
+  "name": "hws2-master",
+  "homepage": "https://anastasia-2112.github.io/hws2-master",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,11 +30,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
